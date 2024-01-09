@@ -1,67 +1,52 @@
-# OSX
-#
-.DS_Store
+### How to update
+# This is copied from OpenHFT/.gitignore
+# update the original and run OpenHFT/update_gitignore.sh
 
-# Xcode
-#
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-*.xccheckout
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
-ios/.xcode.env.local
+### Compiled class file
+*.class
 
-# Android/IntelliJ
-#
-build/
-.idea
-.gradle
-local.properties
+### Package Files
+*.jar
+*.war
+*.ear
+
+### Log file
+*.log
+
+### IntelliJ
 *.iml
-*.hprof
-.cxx/
-*.keystore
-!debug.keystore
+*.ipr
+*.iws
+.idea
+.attach_pid*
 
-# node.js
-#
-node_modules/
-npm-debug.log
-yarn-error.log
-**/**/yarn.lock
-!/yarn.lock
+### Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/
+### Maven template
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
 
-**/fastlane/report.xml
-**/fastlane/Preview.html
-# Commenting this out cause we need to store screenshots in the repo for
-# deployment through CircleCI.
-# */fastlane/screenshots
-**/fastlane/test_output
+### Eclipse template
+*.pydevproject
+.metadata
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.project
+.settings/
+.loadpath
 
-# Bundle artifact
-*.jsbundle
-
-# Ruby / CocoaPods
-/ios/Pods/
-/vendor/bundle/
-
-# Temporary files created by Metro to check the health of the file watcher
-.metro-health-check*
+### Queue files
+*.cq4t
+*.cq4
